@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp2.REG"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="REG" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="label2" Content="Фамилия" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="Имя" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,31,0,0"/>
+        <TextBox x:Name="firstname1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="145,34,0,0"/>
+        <TextBox x:Name="secondname1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="145,0,0,0"/>
+        <Label x:Name="label_Copy2" Content="Отчество" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,62,0,0"/>
+        <TextBox x:Name="middlename1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="145,66,0,0"/>
+        <Label x:Name="label_Copy3" Content="Телефон" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,93,0,0"/>
+        <TextBox x:Name="telephone1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="145,94,0,0"/>
+        <Button x:Name="button" Content="создать" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="51,226,0,0" Click="button_Click"/>
+        <Label x:Name="label_Copy" Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,124,0,0"/>
+        <Label x:Name="label_Copy4" Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="4,163,0,0"/>
+        <TextBox x:Name="login1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="145,122,0,0"/>
+        <TextBox x:Name="password1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="162,167,0,0"/>
+        <Label x:Name="label_Copy5" Content="Status" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="4,189,0,0"/>
+        <TextBox x:Name="status1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="162,195,0,0"/>
+
+    </Grid>
+</Window>
